@@ -1,0 +1,12 @@
+/* stupid ie 6 fix */
+/* This fixes a border rendering issue (only found on portfolio page) and only present in IE6 */
+.span-8{border-right:1px solid #ddd; width:309px;}
+
+.signup{padding-left:324px; padding-top:5px; color:#999;}
+.btn{background:url(../images/btn.jpg) no-repeat; margin-top:7px; margin-right:5px;}
+
+
+input.search{width:100px;margin-left:0px;color:#ccc; margin-right:10px; border:1px solid #ddd;}
+
+/*Fixes jQuery overflow text in the portfolio page. Keeps "Visit Site" link from showing up outside last portfolio image*/
+.fix6{position:absolute; left:-9999px; overflow:hidden; color:#fff; display:none; height:0px;}

@@ -1,0 +1,10 @@
+Inversores para conexión a red
+Desde 2007 la legislación mexicana permite a cualquier usuario residencial o
+comercial del sistema eléctrico nacional el generar su propia electricidad, mediante
+el uso de sistemas solares, interconectándose a la misma red eléctrica para
+intercambiar energía con ella.
+El límite es 10 KW en uso residencial y 30 KW en uso comercial, con lo cual se abre
+la posibilidad a cualquier ciudadano de contribuir con su generación, desde una
+fracción hasta la totalidad de su consumo eléctrico, pagando a la compañía
+eléctrica únicamente la porción de energía no generada por el Sol.
+Para mayor información sobre el tema, consulte a nuestros asesores Conermex.

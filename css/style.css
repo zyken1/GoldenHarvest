@@ -1,0 +1,277 @@
+/*----------------------------------------------------
+                 Centita - CSS File
+------------------------------------------------------*/
+
+
+/* Global
+------------------------------------------------------*/
+html,body{height:100%}
+body{
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:12px;
+margin:0 auto;
+padding:0;
+color:#4c4c4c;
+height:100%;
+}
+*{
+margin:0;
+padding:0;
+}
+*:focus{
+outline:none; /* removes ugly dotted border but may make template more unsuable, up to you
+				 if you want to keep it! */
+}
+.clr{clear:both}
+form{margin:0; padding:0;}
+hr{
+border:0;
+color:#dedede;
+background-color: #dedede;
+height: 1px;
+margin:10px 0px 6px 0px;
+padding:0px;
+}
+
+
+/* Default Element Styles
+------------------------------------------------------*/
+/* heading */
+h1, h2, h3, h4, h5{margin-bottom:15px; font-family:Georgia, "Times New Roman", Times, serif; font-weight:normal; color:#444444;}
+h1{font-size:36px; line-height:30px;}
+h2{font-size:24px; line-height:28px;}
+h3{font-size:18px; line-height:20px;}
+h4{font-size:16px; line-height:18px;}
+h5{font-size:12px; margin:3px 0px; padding:0px;letter-spacing:1px;}
+
+/* links */
+a{color:#2f87aa; text-decoration:none;}
+a:visited{color:#2f87aa; text-decoration:none;}
+a:hover{color:#4ba7cc;}
+a img{border:none}
+.imgleft{float:left; padding:5px 12px 0px 0px;}
+.imgright{float:right; padding-left:12px;}
+/* lists, blockquotes and paragraphs */
+p, ul, ol, blockquote{
+font-size:12px;
+line-height:18px;
+margin-bottom:20px;
+color:#4c4c4c;
+}
+ul, ol{
+margin:10px 0 35px 40px;
+}
+li ol, li ul{
+font-size:1.0em;
+list-style:square;
+margin-bottom:0;
+margin-top:0;
+}
+li ol{list-style:decimal;}
+blockquote{
+font-style:italic;
+margin:0px;
+color:#4c4c4c;
+padding:0px 4px 0px 32px;
+background-image:url(../images/quote.png);
+background-position:0px 5px;
+background-repeat:no-repeat;
+}
+
+
+/* code */
+code{
+font-family:Georgia, "Times New Roman", Times, serif;
+letter-spacing:1px;
+margin:25px 0 25px 0px;
+display:block;
+font-size:0.9em;
+border-left:4px solid #dddddd;
+padding:15px 10px;
+}
+
+
+/* Container
+------------------------------------------------------*/
+#main_container{background-image:url(../images/bg-top-container.gif); background-repeat:repeat-x; background-color:#fff; min-height:82%;}
+#bottom_container{background-image:url(../images/bg-container-bottom.gif); background-position:top; background-repeat:no-repeat; height:54px;}
+
+
+/* Centercolumn
+------------------------------------------------------*/
+#centercolumn{width:960px; margin:0px auto 0px auto;}
+
+
+/* Top
+------------------------------------------------------*/
+#top{height:153px; width:960px;}
+#logo{width:600px; padding:6px 0px 0px 15px; float:left;}
+#topmenu{width:960px; float:left; height:74px;}
+
+/* Seacrh styling */
+#search-box{
+padding:28px 10px 0px 0px;
+}
+#search{
+float:right;
+width:auto;
+}
+#s{
+font:12px Georgia, "Times New Roman", Times, serif;
+font-size:11px;
+color:#c8c9be;
+padding:3px 30px 2px 3px;
+background:none;
+border:1px solid #d9d9d9;
+width:185px;
+}
+#s:focus{
+border:1px solid #adacac;
+color:#adacac;
+}
+#search .go{
+position:absolute;
+margin:2px 0 0 -26px;
+}
+
+
+/* Top Navigation bar menu styling */
+#nav{
+float:left;
+list-style-type: none;
+margin:12px 0px 0px 0px;
+}
+#nav li{
+float:left;
+border-right:2px solid #cbcbcb;
+}
+#nav li a:link, #nav li a:active, #nav li a:visited{
+display:flex;
+width:50px;
+padding:4px 20px;
+text-decoration: none;
+line-height: 30px;
+outline: none;
+text-align:left;
+font-size: 20px;
+color:#7c7c7c;
+}
+#nav li a:hover, #nav li.selected a{
+color:#2a7ea0;
+}
+span.descmenu{
+font-size:11px; 
+padding:0px 20px;
+color:#989797
+}
+
+
+/* Content
+------------------------------------------------------*/
+#content{width:960px;}
+#maincontent{padding:20px 0px 30px 0px; float:left}
+.h-line {padding:4px 0px; font-size: 14px}
+
+/* main */
+#main{width:610px; float:left;}
+#maintext{padding:0px 0px 20px 0px}
+#maintext h2{margin:0px;}
+#maintext h1{color:#2f87aa;}
+#maintext_portfolio{padding:0px 0px 0px 0px}
+.box-main{width:290px; float:left; padding:28px 0px 0px 0px;}
+.spacer{width:30px; float:left; display:block; height:100%;}
+.icon{width:77px; height:92px; float:left;}
+
+/* side */
+#side{width:312px; margin:8px 0px 0px 38px; float:left;}
+.sidebox{
+padding:10px 18px 5px 18px;
+margin-bottom:14px;
+border-left:1px solid #d9d9d9;
+border-right:1px solid #d9d9d9;
+border-bottom:1px solid #d9d9d9;
+}
+.sidebox-top{
+background-image:url(../images/top-border-side.gif);
+background-repeat:no-repeat; 
+background-position:top;
+height:4px;
+}
+#latest-news{
+padding:10px 18px 0px 18px;
+margin-bottom:14px;
+border-left:1px solid #d9d9d9;
+border-right:1px solid #d9d9d9;
+border-bottom:1px solid #d9d9d9;
+}
+
+/* scroll widget */
+.scroll{
+position:relative;
+min-height:137px;
+border:1px solid #efefef;
+margin:0 0 20px 0;
+background:#fff;
+}
+.scroll ul{
+position:relative;
+width:276px;
+height:78px;
+margin:0px;
+list-style:none;
+}
+.scroll ul li{
+width:276px;
+height:78px;
+margin:0;
+line-height:18px;
+}
+.scroll ul li span{
+display:block;
+margin:0 0 .4em;
+}
+.scroll ol{
+height:22px;
+position:absolute;
+top:0;
+right:15px;
+list-style:none;
+}
+.scroll ol li{
+float:left;
+}
+.scroll ol a{
+display:block;
+width:11px;
+height:22px;
+margin:0 1px;
+padding:0 2px;
+text-indent:-9999px;
+background-repeat:no-repeat;
+background-position:50% 0;
+}
+.scroll ol li.previous a{background-image:url("../images/icon-arrow-down.gif");}
+.scroll ol li.next a {background-image:url("../images/icon-arrow-up.gif");}
+.scroll ol li a:hover {background-position:50% 100%; }
+
+
+/* Footer
+------------------------------------------------------*/
+#footer{width:960px; margin:0px auto; color:#a0a0a0 !important}
+#footer a, #footer a:visited{color:#a0a0a0; text-decoration:none;}
+#foot a:hover{text-decoration:underline;}
+#copyright-foot{
+margin:0px 0px 0px 0px;
+padding:20px 0px 0px 0px;
+float:left;
+color:#a0a0a0;
+font-size: 14px;
+}
+#rss-foot{
+width:103px;
+padding:20px 0px 0px 0px;
+float:right;
+color:#a0a0a0;
+}
+.valid {float:left; }
+.rss-img {float:left;}

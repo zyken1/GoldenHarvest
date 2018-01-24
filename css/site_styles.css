@@ -1,0 +1,170 @@
+﻿/* -----------------------------------------------------------------------
+                Whitewall Site Template Custom Styling   (GREEN)          
+----------------------------------------------------------------------- */
+
+/* colors */
+a {color:#9c0; text-decoration:none;}
+a:hover{color:#555}
+body {background:#F0F0F0 url(../images/background.gif) repeat-x; color:#666;}
+h2, h3, h4{color:#9c0;}
+.color{color:#9c0;}
+.color h2{color:#9c0;}
+hr{color:#f0f0f0; background:#f0f0f0;}
+
+/* header */
+#header {padding-bottom:0px; margin-bottom:0; margin-top:0px; background:url(../images/nav_header.jpg) no-repeat;}
+.signup{padding-left:330px; padding-top:0px; color:#999;}
+.btn{background:url(../images/btn.jpg) no-repeat; margin-top:7px; margin-right:5px;}
+
+/* box styling */
+.boxed{background:#fff url(../images/background-container.gif) top repeat-x; border:1px solid #ddd; padding:20px;}
+.boxed h3, .boxed h2{padding:0; margin:0; margin-bottom:5px;}
+.boxed_small{background:#fff url(../images/background-container.gif) top repeat-x; border:1px solid #ddd; padding:20px; height:150px;}
+.boxed_small h3{padding:0; margin:0; margin-bottom:5px;}
+
+/* update bar styling */
+.update{background:#fff url(../images/menu-bg.gif) bottom left repeat-x;border:1px solid #ddd; padding:6px; height:25px;}
+.update h6{padding:0; margin:0;}
+.update p{margin:0; padding:5px;}
+
+
+/* image styling */
+p img.left {float:left;margin:4px 10px 0 0;padding:0;}
+p img.right {float:right;margin:0 0 0 10px;}
+p img.upd{float:left; padding-right:2px;}
+img.port_left {float:left;margin:0px 10px 0 0;padding:5px; border:1px solid #ddd; background:#f0f0f0;}
+img.port_right {float:right;margin:0px 0 0 10px;padding:5px; border:1px solid #ddd; background:#f0f0f0;}
+
+
+/* menu styling */
+.menu_text{color:#999; padding: 10px 14px 9px 25px; margin:0; overflow:hidden}
+div#menu { float: right; background:#fff url(../images/menu-bg.gif) bottom left repeat-x; border:1px solid #ddd; margin-top:0px; width:948px; overflow:hidden;}
+div#menu ul, div#menu ul ul {margin: 0; padding: 0; list-style-type: none; }
+div#menu ul li {float: right;  margin: 0; padding: 0; }
+div#menu ul li a { float: left; color: #666; text-decoration: none; margin: 0; padding: 10px 14px 9px 15px; border-left: 1px solid #ddd; }
+div#menu ul li a:hover { color: #9c0; background: #fff; border-right: 0px solid #ddd; }
+div#menu ul ul li a { color: #333; text-decoration: none; width: 220px; margin: 0; padding: 10px 0px 9px 15px; background-color: #fff; border-left: 1px solid #ddd; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; }
+div#menu ul li:hover ul { display: block; position: absolute; margin: 34px 0px 0px -1px; border-top: 1px solid #ddd; }
+#menu .selected{background:#fff; color:#9c0;}
+
+
+/* footer nav styling */
+#footer-nav{float:right; padding-right:0; margin-right:0; font-size:11px;}
+#footer-nav li{list-style:none; float:left; padding-left:5px; color:#ccc;}
+.footer_text {padding:0; margin:0; font-size:11px;}
+
+
+
+/* update bar  */
+#switches {margin: 0; padding: 0; list-style-type: none; display:inline; float: right;}
+#switches li {display:inline; list-style: none; float: left; margin: 0; padding: 5px 5px 0 0;}
+#slides {color:#555;}
+
+
+/* Search styling */
+input.search{width:100px;margin-left:0px;color:#ccc; margin-right:10px; border-color:#ddd;}
+
+
+/* Custom HR Lines */
+.hrbg{padding-bottom:0px; text-indent:-9999px; background:url(../images/hrbg.jpg) repeat-x; margin-top:4px;}
+.hrbg2{padding-bottom:0px; text-indent:-9999px; background:url(../images/hrbg2.jpg) repeat-x; margin-top:4px;}
+
+
+/* portfolio styling */
+.boxed_port{background:#fff url(../images/background-container.gif) top repeat-x; border:1px solid #ddd; padding:10px 20px 10px 20px;}
+.boxed_port h2{padding:0; margin:0; color:#444;}
+.boxed_port h3{padding:5px 0 5px 0; margin:0; color:#9c0; font-size:20px}
+.boxed_port p{padding:0; margin:0;}
+.boxed_port .brief{padding:0 0 10px;}
+.boxed_port img{background:#f0f0f0; padding:5px; border:1px solid #ddd; margin-top:5px;}
+.brief_box{background:#f0f0f0; border:1px solid #ddd; padding:2px; text-align:center;}
+
+
+/* page styling */
+.boxed_page{background:#fff url(../images/background-container.gif) top repeat-x; border:1px solid #ddd; padding:10px 20px 10px 20px;}
+.boxed_page h2{padding:0; margin:0; color:#444;}
+.boxed_page h4{padding:5px 0 5px 0; margin:0; color:#9c0; font-size:20px}
+.boxed_page p{padding:0; margin:0;}
+
+.boxed_blog{background:#fff url(../images/background-container.gif) top repeat-x; border:1px solid #ddd; padding:10px 20px 10px 20px;}
+.boxed_blog h2{padding:0; margin:0; color:#444;}
+.boxed_blog h4{padding:5px 0 5px 0; margin:0; color:#9c0; font-size:20px}
+.boxed_blog p{padding:0 0 20px 0; margin:0;}
+.blog_about p{font-size:11px; font-style:italic;}
+
+/* Contact Styling */
+textarea#styled {width: 654px;height: 120px;border: 1px solid #ddd;padding: 5px;color:#999; background:#f0f0f0;}
+input.ct{color:#999;border: 1px solid #ddd; background:#f0f0f0; }
+
+.grey{color:#444;} 
+.boxed h5{padding:0; margin:0; color:#444;}
+.meta{font-size:11px; padding:0 0 5px 0;}
+.hidden{display:none;}
+
+/* Colorbox Stylings */
+#inline_1{text-align:left;padding:10px; background:#fff;}
+#inline_1 h2{padding:0; margin:0;}
+#inline_1 p{padding:0 0 10px 0; margin:0;}
+#inline_2{text-align:left;padding:10px; background:#fff;}
+#inline_2 h2{padding:0; margin:0;}
+#inline_2 p{padding:0 0 10px 0; margin:0;}
+#contact{text-align:left;padding:10px; background:#fff;}
+#contact h2{padding:0; margin:0;}
+#contact p{padding:0 0 10px 0; margin:0;}
+
+/* cb search styling */
+#search_pop{text-align:left;padding:10px; background:#fff;}
+#search_pop h2{padding:0; margin:0;}
+#search_pop p{padding:0 0 10px 0; margin:0;}
+#search_pop h3{padding:0 0 5px 0; margin:0; font-size:15px;}
+
+/* portfolio entry stylings - due to the limitations on colorbox, each portfolio entry has unique styling declarations */
+/* which could be a good thing, if you wanted the flexibility to custom style each individual portfolio entry */
+.port_meta{padding:0 0 10px 0; margin:0;}
+.port_action{padding:10px 0 0px 0; margin:0; text-align:center; color:#555; font-size:18px}
+.port_action a{color:#555; text-decoration:none;}
+
+#port1_pop{text-align:left;padding:10px; background:#fff;}
+#port1_pop h2{padding:0; margin:0;}
+#port1_pop p{padding:0 0 10px 0; margin:0;}
+#port1_pop h3{padding:0 0 5px 0; margin:0; font-size:15px;}
+
+#port2_pop{text-align:left;padding:10px; background:#fff;}
+#port2_pop h2{padding:0; margin:0;}
+#port2_pop p{padding:0 0 10px 0; margin:0;}
+#port2_pop h3{padding:0 0 5px 0; margin:0; font-size:15px;}
+
+#port3_pop{text-align:left;padding:10px; background:#fff;}
+#port3_pop h2{padding:0; margin:0;}
+#port3_pop p{padding:0 0 10px 0; margin:0;}
+#port3_pop h3{padding:0 0 5px 0; margin:0; font-size:15px;}
+
+#port4_pop{text-align:left;padding:10px; background:#fff;}
+#port4_pop h2{padding:0; margin:0;}
+#port4_pop p{padding:0 0 10px 0; margin:0;}
+#port4_pop h3{padding:0 0 5px 0; margin:0; font-size:15px;}
+
+#port5_pop{text-align:left;padding:10px; background:#fff;}
+#port5_pop h2{padding:0; margin:0;}
+#port5_pop p{padding:0 0 10px 0; margin:0;}
+#port5_pop h3{padding:0 0 5px 0; margin:0; font-size:15px;}
+
+#port6_pop{text-align:left;padding:10px; background:#fff;}
+#port6_pop h2{padding:0; margin:0;}
+#port6_pop p{padding:0 0 10px 0; margin:0;}
+#port6_pop h3{padding:0 0 5px 0; margin:0; font-size:15px;}
+
+#port7_pop{text-align:left;padding:10px; background:#fff;}
+#port7_pop h2{padding:0; margin:0;}
+#port7_pop p{padding:0 0 10px 0; margin:0;}
+#port7_pop h3{padding:0 0 5px 0; margin:0; font-size:15px;}
+
+#port8_pop{text-align:left;padding:10px; background:#fff;}
+#port8_pop h2{padding:0; margin:0;}
+#port8_pop p{padding:0 0 10px 0; margin:0;}
+#port8_pop h3{padding:0 0 5px 0; margin:0; font-size:15px;}
+
+#port9_pop{text-align:left;padding:10px; background:#fff;}
+#port9_pop h2{padding:0; margin:0;}
+#port9_pop p{padding:0 0 10px 0; margin:0;}
+#port9_pop h3{padding:0 0 5px 0; margin:0; font-size:15px;}
