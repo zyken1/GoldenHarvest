@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="" />
+  <meta name="title" content="" />
+  <meta name="description" content="" />
+<title>Golden Harvest | Solar System | Contacto</title>
+
+<!-- ////////////////////////////////// -->
+<!-- //      Start Stylesheets       // -->
+<!-- ////////////////////////////////// -->
+<link href="./css/style.css" rel="stylesheet" type="text/css" />
+<link href="./css/inner.css" rel="stylesheet" type="text/css" />
+
+<!--[if IE 6]>
+    <script type="text/javascript" src="js/unitpngfix.js"></script>
+	<link href="css/ie6.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+	#slides_container{
+		background-image:url(images/clear.gif);
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image src='images/bg_slides_container.png');
+		}
+	</style>
+<![endif]-->
+<style type='text/css' media='screen,projection'>
+<!--
+fieldset { border:0;margin:0;padding:0; }
+label {  padding-right:15px; float:left; width:70px;}
+input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#333;padding:3px;margin:1px 0; }
+-->
+</style>
+
+<!-- ////////////////////////////////// -->
+<!-- //      Javascript Files        // -->
+<!-- ////////////////////////////////// -->
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/functionaddevent.js"></script>
+<script type="text/javascript" src="./js/contact.js"></script>
+<script type="text/javascript" src="./js/xmlhttp.js"></script>  
+<script type="text/javascript" src="./js/cufon-yui.js"></script>
+<script type="text/javascript" src="./js/nilland-extrabold_800.font.js"></script>
+<script type="text/javascript">
+            Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li a');
+</script>  
+</head>
+<body>
+
+		<div id="main_container">
+				<div id="centercolumn">
+				
+							<!-- BEGIN TOP -->
+					<div id="top">
+							<div id="logo">								
+								<a href="./index.html"><img src="./images/logo.gif" alt=""/></a>								
+							</div><!-- end of logo -->
+							
+							<div id="search-box">
+                            	<form id="search" action="#" method="get">
+      								<p style="height: 11px">&nbsp;
+      								</p>
+      							</form>
+                            </div><!-- end of search -->
+							
+							<div id="topmenu" style="width: 760px">
+								<ul id="nav" style="width: 1000px"><!-- Top Navigation UL -->
+                                    <li><a href="./index.html">
+									Nosotros</a><span class="descmenu">Golden 
+									Harvest</span></li>
+                                    <li><a href="energia-solar.html">E. Solar</a><span class="descmenu"> 
+									Energ�a 
+									solar</span></li>
+									<li><a href="luminarias.html">Luminarias</a><span class="descmenu"> 
+									Luminarias Solares</span></li>
+                                    <li><a href="energia-eolica.html">E. E�lica</a><span class="descmenu"> 
+									Energ�a E�lica</span></li>
+									<li>
+									<a href="calentadores-solares.html">Calentadores</a><span class="descmenu"> 
+									Calentadores Solares</span></li>
+                                    <li class="selected"><a href="contact.html">Contacto</a><span class="descmenu"> 
+									Env�e un&nbsp; email</span></li>
+									<li><a href="http://usuarios.goldenharvest.com.mx">Usuarios</a><span class="descmenu">Acceso a Personal</span></li>
+        						</ul>
+							</div>
+					</div><!-- end of topmenu -->
+						
+				<!-- END OF TOP -->
+			
+						
+				<!-- BEGIN CONTENT -->
+					<div id="content">						
+						<div id="maincontent">
+							<div id="main">								
+								<div id="maintext">
+                                <h2>Cont�ctanos</h2>
+								<h1>Env�anos un E-mail</h1>
+								<p id="loadBar" style="display:none;">
+                                <strong>Enviando Mensaje.</strong><br />
+                                <img src="images/loading.gif" alt="Un momento..." title="Sending Email" />
+                                </p>
+                                <p id="emailSuccess" style="display:none;">
+                                <strong style="color:red;">Enviado! Su mensaje ha sido enviado con �xito.</strong>
+                                </p>
+                                <p>Llena la forma y en breve nos comunicaremos 
+								contigo.</p>
+								<div id="contactFormArea">
+                                        <form action="scripts/contact.php" method="post" id="cForm">
+                                            <fieldset>
+                                                <label for="posName">Nombre</label><br />
+                                                <input class="input" type="text" size="25" name="posName" id="posName" /><br /><br />
+                                                <label for="posEmail">Email</label><br />
+                                                <input class="input" type="text" size="25" name="posEmail" id="posEmail" /><br /><br />
+                                                Titulo<br />
+                                                <input class="input" type="text" size="25" name="posRegard" id="posRegard" /><br /><br />
+                                                <label for="posText">Mensaje</label><br />
+                                                <textarea cols="50" rows="5" name="posText" id="posText" class="textarea"></textarea><br /><br />
+                                                <label for="selfCC">
+                                                <!--<input type="checkbox" name="selfCC" id="selfCC" value="send" /> Send CC to self-->
+                                                <input type="hidden" name="selfCC" id="selfCC" value="xxx" />
+                                                </label>                                                
+                                                <input class="input-submit"  type="submit" name="sendContactEmail" id="sendContactEmail" value=" " /> 
+                                            </fieldset>
+                                        </form>     
+                                </div>                              
+                                </div><!-- end of maintext -->
+							</div><!-- end of main -->
+								
+							<div id="side">
+                               	<div class="sidebox-top"></div>
+								<div class="sidebox">
+									<h3>Nuestra direcci�n</h3>
+										<div class="map">
+											<a href="https://www.google.com.mx/maps/place/San+Jos�+de+La+Mina/@19.4330741,-102.0255214,17z/data=!3m1!4b1!4m2!3m1!1s0x842de3cb40a1d52d:0x8c4cef8ed9a421a5" target="_blank"><img src="./images/map.jpg" alt="" /></a></div>
+                                           <p>Mapa</p>
+                                           <div id="address">
+                                               <ul>
+                                                  <li class="mail"><a href=""> info@goldenharvest.com.mx </a>&nbsp; 
+												  sistemassolaresdeuruapan@hotmail.com</li>
+                                                  <li class="phone">+452 
+												  168-83-70</li>
+												  <!-- <li class="phone">
+												   +452-161-13-20 </li> -->
+                                               </ul>
+												   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+												   + Oficina 452-119-18-96 </p>
+											      <!-- <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+											       +62*12*38041 (Nextel)</p> -->
+											   <ul>
+                                                  <li class="address" style="width: 242px">
+												  Libramiento Oriente #3218-3 , 
+												  Col San Jose de la Mina, 
+												  Uruapan Mich. 60120</li>
+                                               </ul>
+                                          </div>  						
+								</div><!-- end of sidebox -->
+							</div><!-- end of side -->
+						</div><!-- end of maincontent -->
+						
+						<div class="clr"></div>
+						</div>
+				<!-- END OF CONTENT -->
+				
+				</div><!-- end of centercolumn -->
+		</div><!-- end of main container -->
+	
+	<!-- BEGIN FOOTER -->
+		<div id="bottom_container">
+			<div id="footer">		
+				<div id="copyright-foot">
+					Copyright �2011 Golden Harvest. All rights reserved
+				</div>
+                <div id="rss-foot">
+					<div class="valid"><a href="#">XHTML</a>&nbsp;-&nbsp;<a href="#">CSS</a>&nbsp;-&nbsp;</div>
+                    <div id="rss-img"></div>
+				</div>
+			</div><!-- end of footer -->
+		</div><!-- end of bottom container -->
+	<!-- END OF FOOTER -->
+	
+</body>
+</html>
